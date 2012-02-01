@@ -96,13 +96,7 @@
 #define LH_ARC_ENABLED 1
 #endif // __has_feature(objc_arc)
 
-enum LevelHelper_TAG 
-{ 
-	DEFAULT_TAG 	= 0,
-	ONE 			= 1,
-	TWO 			= 2,
-	NUMBER_OF_TAGS 	= 3
-};
+enum LevelHelper_TAG;
 
 enum LH_ACTIONS_TAGS
 {
